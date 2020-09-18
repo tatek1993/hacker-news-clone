@@ -37,7 +37,7 @@ img {
 
 .upvote {
   color: #828282;
-  font-size: 9pt;
+  font-size: 7pt;
 }
 .app-container {
   display: flex;
@@ -83,11 +83,29 @@ a {
   color: #828282;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.comment-header {
+  color: #828282;
+  font-size: 7pt;
+}
+
+.comment-body {
+  font-size: 9pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  padding: .2em 1em;
+}
+
+.comment-container {
+  padding: .5rem 1rem 3rem 1rem;
+}
+
+textarea {
+  width: 30em;
+  height: 7em;
+  display: block;
+}
+button {
+  color: black;
+  font-family: monospace;
+  font-size: 10pt;
 }

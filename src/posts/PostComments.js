@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Link, useParams } from "react-router-dom";
 import PostComment from './PostComment';
+import Post from './Post';
 import axios from 'axios';
 
 const PostComments = () => {
@@ -26,6 +27,12 @@ const PostComments = () => {
 
     return (
         <div className='post-list'>
+            <Post postId={itemID} />
+            <div className="comment-container">
+                <textarea />
+                <button>add comment</button>
+            </div>
+
             {comments.map(id => (
                 <PostComment key={id} id={id} />
             ))}

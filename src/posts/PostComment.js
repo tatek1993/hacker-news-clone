@@ -23,13 +23,13 @@ const Post = (props) => {
 
         <div className='post-card'>
             <div className="comment-header">
+                <span className="upvote">▲ </span>
                 {comment.by}
                 {comment.time}
 
             </div>
-            <div className="comment-body">
-                {comment.text}
-            </div>
+            <div className="comment-body" dangerouslySetInnerHTML={{ __html: comment.text }} />
+
         </div>
 
     )
