@@ -32,7 +32,7 @@ const Post = (props) => {
 
         <div className='post-card'>
             <div className="title">
-                <span className="upvote">▲ </span><a href={post.url}>{post.title} </a>
+                <span className='rank'>{props.rank + 1}.</span>&nbsp;<span className="upvote">▲ </span><a href={post.url}>{post.title} </a>
                 <span>
                     (
                     <a href={post.url}>

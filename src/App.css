@@ -2,6 +2,13 @@
   text-align: center;
   
 }
+.title>.rank {
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 1.5em;
+  text-align: right;
+  display: inline-block;
+}
 body {
   padding: .8%;
 }
@@ -50,17 +57,21 @@ img {
 .post-info {
   color: #828282;
   font-size: 7pt;
-  padding-left: 2em;
+  padding-left: 4em;
 }
 
 a {
   text-decoration: none;
   color: #828282;
 }
-
+.title {
+  line-height: 0.9em;
+}
 .title>a{
   color: black;
   font-size: 10pt;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title>span {

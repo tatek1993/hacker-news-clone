@@ -24,8 +24,8 @@ const PostList = () => {
 
         <div className='post-list'>
 
-            {posts.map(postId => (
-                <Post key={postId} postId={postId} />
+            {posts.map((postId, index) => (
+                <Post key={postId} postId={postId} rank={index} />
             ))}
         </div>
     );
