@@ -1,31 +1,75 @@
 .App {
   text-align: center;
+  
+}
+body {
+  padding: .8%;
+}
+.header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  display: flex;
+  align-items: center;
+  background-color: #ff6600;
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  border: 1px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#logo-text {
+  
+  font-weight: bold;
+  color: black;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.upvote {
+  color: #828282;
+  font-size: 9pt;
+}
+.app-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.app-body {
+  width: 85%;
+  background-color: #f6f6ef;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.post-list {
+  padding: .5%;
+}
+.post-info {
+  color: #828282;
+  font-size: 7pt;
+  padding-left: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.title>a{
+  color: black;
+  font-size: 10pt;
+}
+
+.title>span {
+  font-size: 8pt;
+  color: #828282;
+}
+
+.title>span>a {
+  color: #828282;
 }
 
 @keyframes App-logo-spin {
